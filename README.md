@@ -1,4 +1,6 @@
 # Algorithm_study
-aaaaaaabbbbbbbbbbbbb
-help... 
-help....
+## 📌 폴더 구조 / 파일명
+
+`Algorithm_study / (리뷰 진행할 날짜) / (닉네임) / 내용들`
+
+- 파이썬 파일 같은 경우 `[문제사이트]_문제번호_문제이름.py` 로 저장
