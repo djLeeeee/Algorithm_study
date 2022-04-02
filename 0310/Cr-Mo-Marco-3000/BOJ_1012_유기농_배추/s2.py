@@ -1,7 +1,7 @@
 import sys
 
 
-sys.setrecursionlimit(100000000)
+sys.setrecursionlimit(10000)
 
 
 # 재귀로 풀자
