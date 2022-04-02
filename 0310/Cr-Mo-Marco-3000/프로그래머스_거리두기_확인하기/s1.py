@@ -47,7 +47,7 @@ def do():
 
 
 def solution(places):
-    # 입력 받기: 2차원 문자열 배열이랍신다 ㅅㅂ
+    # 입력 받기: 2차원 문자열 배열이랍신다
     my_list = places
     # 그래프 초기화
     g = []
