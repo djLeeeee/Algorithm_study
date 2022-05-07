@@ -11,12 +11,14 @@ for i in range(1, N+1):
     for j in range(len(temp)):
         if temp[j]:
             g[i].append(j+1)
+
 visited = [0] * (N + 1)
 start, *journey = map(int, stdin.readline().rstrip().split())
 my_set = set(journey)
 my_set.add(start)
 Q = deque([start])
 visited[start] = 1
+
 while Q:
     v = Q.popleft()
     for w in g[v]:
