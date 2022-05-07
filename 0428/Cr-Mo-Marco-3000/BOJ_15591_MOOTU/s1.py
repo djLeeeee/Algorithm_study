@@ -27,6 +27,7 @@ def do(k, v):
 
 
 N, Q = map(int, stdin.readline().rstrip().split())
+
 g = [[1000000001] * (N+1) for _ in range(N+1)]
 
 for _ in range(N-1):
