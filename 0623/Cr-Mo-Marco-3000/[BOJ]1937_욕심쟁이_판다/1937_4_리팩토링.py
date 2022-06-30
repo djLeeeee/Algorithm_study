@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-sys.setrecursionlimit(10 ** 4)                                  # 재귀 깊이 설정
+sys.setrecursionlimit(10 ** 6)                                  # 재귀 깊이 설정
 N = int(input().strip())
 g = [list(map(int, input().strip().split())) for _ in range(N)]
 visited = [[0] * N for _ in range(N)]
@@ -26,8 +26,7 @@ ans = 0
 
 for i in range(N):
     for j in range(N):
-        do(i, j)
-        if visited[i][j] > ans:                                # i, j의 값은 이후 갱신될 가능성이 없으므로
-            ans = visited[i][j]                                # ans와 비교해서 최대값을 갱신해준다.
+        do(i, j)                                  # i, j의 값은 이후 갱신될 가능성이 없으므로
+        ans = max(visited[i][j], ans)             # ans와 비교해서 최대값을 갱신해준다.
 
 print(ans)
