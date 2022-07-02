@@ -1,9 +1,15 @@
 # :thinking: Algorithm_study
 
+> 지금까지 진행한 스터디 백준 문제 모음집 (마지막 업데이트 22.07.03)
+>
+> https://www.acmicpc.net/workbook/view/11843
+
+
+
 ## :heavy_check_mark: 목표
 
-- [ ] 백준 티어 골드
-- [ ] 카카오 코딩테스트 3 ~ 4 sol 
+- [x] 백준 티어 골드
+- [x] 카카오 코딩테스트 3 ~ 4 sol 
 
 
 
