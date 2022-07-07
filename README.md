@@ -1,6 +1,6 @@
 # :thinking: Algorithm_study
 
-> 지금까지 진행한 스터디 백준 문제 모음집 (마지막 업데이트 22.07.03)
+> 지금까지 진행한 스터디 백준 문제 모음집 (마지막 업데이트 22.07.08)
 >
 > https://www.acmicpc.net/workbook/view/11843
 
