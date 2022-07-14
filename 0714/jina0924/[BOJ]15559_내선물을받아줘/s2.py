@@ -1,7 +1,7 @@
 # 백준 15559번 내 선물을 받아줘
 
 import sys
-sys.stdin = open('input2.txt')
+sys.stdin = open('input.txt')
 input = sys.stdin.readline
 
 
