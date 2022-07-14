@@ -39,5 +39,5 @@
 > 국내에서 출제된 문제에서는 이렇게 테스트 케이스가 정확히 명시되지 않는 경우가 매우 드무니, Python 작동 원리를 공부하시는 게 아니라면 "아~, 이런 방법도 있구나" 하고 넘어가셔도 괜찮을 것 같습니다! 이런 스타일은 유럽에서 출제되는 문제 스타일입니다.
 
 - [백준 3649 로봇 프로젝트](https://www.acmicpc.net/problem/3649)
-- [백준 9935 문자열 폭발](https://www.acmicpc.net/problem/1774)
+- [백준 9935 문자열 폭발](https://www.acmicpc.net/problem/9935)
 - [백준 1774 우주신과의 교감](https://www.acmicpc.net/problem/1774)
