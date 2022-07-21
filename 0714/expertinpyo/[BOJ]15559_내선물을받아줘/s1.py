@@ -1,26 +1,37 @@
-n, m = map(int, input().split())
-MAP = [list(input()) for _ in range(n)]
-check = [[0] * m for _ in range(n)]
-dic = {'N': (-1, 0), 'S': (1, 0), 'E': (0, 1), 'W': (0, -1)}
+def dfs(ax, ay):
+    stack = [(ax, ay)]
+    while stack:
+        x, y = stack.pop()
+        pos.append((x, y))
+        if arr[x][y] == 'N':
+            nx, ny = x - 1, y
+        elif arr[x][y] == 'S':
+            nx, ny = x + 1, y
+        elif arr[x][y] == 'W':
+            nx, ny = x, y - 1
+        else:
+            nx, ny = x, y + 1
+        if 0 <= nx < N and 0 <= ny < M:
+            if not checked[nx][ny]:
+                if nx == ay and ny == ay:
+                    return True
+                stack.append((nx, ny))
+            else:
+                return False
 
-def dfs(y, x, cnt):
-    global n, m
+N, M = map(int, input().split())
+arr = [list(input()) for _ in range(N)]
+visited = [[0] * M for _ in range(N)]
 
-    if check[y][x]:
-        return check[y][x]
+ans = 0
+checked = [[0] * M for _ in range(N)]
+for i in range(N):
+    for j in range(M):
+        if not checked[i][j]:
+            if dfs(i, j):
+                ans += 1
+                checked[i][j] = ans
+            else:
+                checked[i][j] = -1
 
-    check[y][x] = cnt
-    ny = y + dic[MAP[y][x]][0]
-    nx = x + dic[MAP[y][x]][1]
-    check[y][x] = dfs(ny, nx, cnt)
-    return check[y][x]
-
-
-result = 0
-for i in range(n):
-    for j in range(m):
-        if not check[i][j]:
-            a = dfs(i, j, result + 1)
-            result = max(a, result)
-
-print(result)
+print(ans)

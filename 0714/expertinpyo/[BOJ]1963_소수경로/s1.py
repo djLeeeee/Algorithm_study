@@ -26,8 +26,8 @@ for _ in range(T):
             r = a % (10 ** i)
             for j in range(10):
                 value = m * 10 ** (i+1) + r + j * 10 ** i
-                if 1000 < value < 10000 and not visited[value-1000] and value != a and isPrime(value):
+                if 1000 <= value < 10000 and not visited[value-1000] and value != a and isPrime(value):
                     visited[value-1000] = visited[a-1000] + 1
                     queue.append(value)
     if nothing:
-        print(0)
+        print("Impossible")

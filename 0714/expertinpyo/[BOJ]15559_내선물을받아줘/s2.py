@@ -1,7 +1,6 @@
 def dfs(x, y, cnt):
     if visited[x][y]:
         return visited[x][y]
-
     visited[x][y] = cnt
     nx, ny = di[arr[x][y]][1] + x, di[arr[x][y]][0] + y
     visited[x][y] = dfs(nx, ny, cnt)
@@ -22,5 +21,5 @@ for i in range(N):
     for j in range(M):
         if not visited[i][j]:
             ans = max(dfs(i, j, ans+1), ans)
-print(visited)
+# print(visited)
 print(ans)
