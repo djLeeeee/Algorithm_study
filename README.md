@@ -1,6 +1,6 @@
 # :thinking: Algorithm_study
 
-> 지금까지 진행한 스터디 백준 문제 모음집 (마지막 업데이트 22.07.14)
+> 지금까지 진행한 스터디 백준 문제 모음집 (마지막 업데이트 22.07.23)
 >
 > https://www.acmicpc.net/workbook/view/11843
 
@@ -28,7 +28,7 @@
 
 ## :computer: 참여방법
 
-- 매주 목요일 오후 9시 디스코드에서 코드 리뷰
+- 격주로 수요일/목요일 오후 10시 디스코드에서 코드 리뷰
 - clone 또는 git pull 받은 후 위 폴더 구조에 맞게 개인 작업 코드 저장
   - 저장 양식 지키면서 자기 스타일에 맞게 자신 폴더 내 README.md 꾸미기!
   - `git add` & `commit` &#8594; `git pull` &#8594; `git push:(닉네임)` &#8594; `Pull request` 순으로 진행
