@@ -1,6 +1,5 @@
 # 우주신과의 교감
 # kruskal로 접근
-
 def kruskal(x):
     ans = 0.0
     for i in range(len(distance)):

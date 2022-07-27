@@ -6,7 +6,6 @@ while True:
         distance.sort()
         left = 0
         right = N - 1
-
         l1 = l2 = -1
         while left < right:
             if distance[left] + distance[right] > X:
