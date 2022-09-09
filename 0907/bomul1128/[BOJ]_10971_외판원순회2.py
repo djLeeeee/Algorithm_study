@@ -4,7 +4,8 @@
 ex) 25 = 11001(2) : 1번, 4번, 5번 방을 방문했다! (역순 주의)
 [장점]
 일반적으로 가지치기가 거의 최대로 된 형태 -> 매우 빠름
-
+[단점]
+탐색해야하는 지점의 갯수가 커지면 활용 불가 (최대 25 정도)
 """
 from sys import stdin
 
@@ -14,7 +15,8 @@ input = stdin.readline
 def tour(now, path):
     if dp[now][path]:
         return dp[now][path]
-    if path + 1 == 1 << n - 1:
+    # 1 << (n - 1) - 1 :  모든 비트가 1이다 -> 모든 도시를 방문했다
+    if path + 1 == 1 << (n - 1):
         if costs[now][0]:
             return costs[now][0]
         return INF
