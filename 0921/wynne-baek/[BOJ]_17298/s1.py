@@ -17,6 +17,6 @@ for i in range(N):
         idx = stack.pop()
         # 정답 배열에 갱신해줌
         answer[idx] = nums[i]
-    # 그 외의 경우에는 아직 오큰수를 못찾았으므로, 스택에 추가
+    # 숫자는 냅다 스택에 추가
     stack.append(i)
 print(*answer)
