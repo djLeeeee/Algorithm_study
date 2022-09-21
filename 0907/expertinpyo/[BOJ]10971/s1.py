@@ -1,3 +1,6 @@
+# 비트 문제로 다시 한번 생각해보기
+# 비트는 25까지가 최대인 듯 하다
+
 def permutation(n, cnt, amt):
     global mins
     if cnt == N:
