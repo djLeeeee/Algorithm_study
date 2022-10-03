@@ -15,7 +15,7 @@ for i in range(2, int(n**0.5)+1):
         for j in range(2*i, n+1, i):
             nums[j] = False
 for n in num:
-    for prime in prime_number :
+    for prime in prime_number:
         if nums[prime] and nums[n-prime]:
             print(f"{n} = {prime} + {n-prime}")
             break
