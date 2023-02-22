@@ -25,7 +25,7 @@ for num in range(M):
         if party[i] in already:
             already = already | set(party)
             break
-    for j in range(num):
+    for j in range(num-1, -1, -1):
         for p in data[j]:
             if p in already:
                 already = already | set(data[j])
