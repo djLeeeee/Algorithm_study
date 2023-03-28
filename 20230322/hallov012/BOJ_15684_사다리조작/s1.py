@@ -21,7 +21,7 @@ def dfs(cnt, x, y):
         ans = cnt
         return
     for j in range(y, n-1):
-        if not g[x][j] and not g[x][j-1]:
+        if not g[x][j] and not g[x][j-1] and not g[x][j+1]:
             g[x][j] = 1
             dfs(cnt+1, x, j+1)
             g[x][j] = 0
