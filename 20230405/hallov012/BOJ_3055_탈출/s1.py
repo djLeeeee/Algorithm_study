@@ -41,7 +41,6 @@ water = deque()
 que = deque()
 visited = [[0] * c for _ in range(r)]
 sx, sy = 0, 0
-ex, ey = 0, 0
 dx = [1, -1, 0, 0]
 dy = [0, 0, 1, -1]
 for i in range(r):
@@ -50,10 +49,8 @@ for i in range(r):
             water.append((i, j))
         elif arr[i][j] == 'S':
             sx, sy = i, j
-            arr[i][j] = '*'
+            arr[i][j] = '.'
             visited[i][j] = 1
-        elif arr[i][j] == 'D':
-            ex, ey = i, j
 que.append((sx, sy))
 
 while True:
