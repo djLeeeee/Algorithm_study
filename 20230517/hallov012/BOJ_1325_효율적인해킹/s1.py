@@ -27,10 +27,9 @@ for i in range(1, n+1):
     if ans_cnt < cnt:
         ans_cnt = cnt
         ans_lst = [i]
-    elif ans_cnt <= cnt:
+    elif ans_cnt == cnt:
         ans_lst.append(i)
 
-ans_lst.sort()
 print(*ans_lst)
 
 

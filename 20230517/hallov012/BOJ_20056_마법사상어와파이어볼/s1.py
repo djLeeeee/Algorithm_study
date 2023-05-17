@@ -3,9 +3,10 @@ sys.stdin = open('input.txt')
 from collections import defaultdict
 
 input = sys.stdin.readline
+
 n, m, k = map(int, input().split())
 fire_lst = []
-for i in range(m):
+for _ in range(m):
     x, y, w, d, s = map(int, input().split())
     fire_lst.append([x-1, y-1, w, d, s])
 dx = [-1, -1, 0, 1, 1, 1, 0, -1]
