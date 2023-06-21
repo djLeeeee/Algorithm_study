@@ -9,7 +9,6 @@ meet.sort(key=lambda x: (x[1], -x[0]))
 ans = sys.maxsize
 cnt = 0
 temp = 0
-same_w_flag = False
 for i in range(n):
     w, c = meet[i]
     cnt += w
