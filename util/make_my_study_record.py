@@ -1,7 +1,7 @@
 """
 Make your study record automatically!
 This script will generate files from your README.md.
-You can find hints by --help option.
+You can find hints by --help option. (ex. python make_my_study_record.py --help)
 For now, this script only supports BOJ with python.
 """
 import sys
@@ -21,10 +21,10 @@ args = parser.parse_args()
 def main():
     if (date := args.date) is None:
         print("date is required!", flush=True)
-        date = input("date? (YYYYMMDD) ex. 20230102")
+        date = input("date? (YYYYMMDD) ex. 20230102\n")
     if (userID := args.user) is None:
         print("user ID is required!", flush=True)
-        userID = input("user ID? (maybe your github ID) ex. bomul1128")
+        userID = input("user ID? (maybe your github ID) ex. bomul1128\n")
     try:
         sys.stdin = open(f"{date}/README.md", "r")
     except FileNotFoundError:
