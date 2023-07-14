@@ -46,7 +46,7 @@ def main():
         problems.append(int(n))
     problems.sort()
 
-    filename = f"{stamp}/README.md"
+    filename = f"2023/{stamp}/README.md"
     os.makedirs(os.path.dirname(filename), exist_ok=True)
 
     with open(file=filename, mode="w", encoding="utf-8") as readme:
