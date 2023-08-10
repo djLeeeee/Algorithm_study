@@ -6,31 +6,46 @@ from collections import deque
 # ----------------------------------------
 N = int(input())
 K = int(input())
-leaders = []
-dist = [[sys.maxsize] * (N + 1) for _ in range(N + 1)]
-
-for n in range(1, N + 1):
-    dist[n][n] = 0
+board = [[[0] * (N + 1) for _ in range(N + 1)] for _ in range(N + 1)]
+network = [[] for _ in range(N + 1)]
 
 for _ in range(K):
-    n1, n2 = map(int, input().split())
-    dist[n1][n2] = dist[n2][n1] = 1
+    a, b = map(int, input().split())
+    network[a].append(b)
+    network[b].append(a)
 
-for k in range(1, N + 1):
-    for i in range(1, N + 1):
-        for j in range(1, N + 1):
-            dist[i][j] = min(dist[i][j], dist[i][k], dist[k][j])
+def bfs(n, group, vst):
+    que = deque([(n, 0)])
+    while que:
+        cn, val = que.popleft()
+        for next in network[cn]:
+            if not vst[next]:
+                group.append(next)
+                vst[next] = 1
+                board[n][cn][next] = val + 1
+                que.append((next, val + 1 ))
 
-vst = [0] * (N + 1)
-network = []
-ans =0 
-for i in range(1, N + 1):
-    if not vst[i]:
-       ans += 1
-       vst[i] = 1
-       network.append(i)
-       for j in range(1, N + 1):
-           if dist[i][j] != sys.maxsize and i != j:
-               network.append(j)
-               vst[j] = 1
-        leaders.append(getLeader(network)) 
+groups = []
+for n in range(1, N + 1):
+    vst = [0] * (N + 1) 
+    group = [n]
+    vst[n] = 1
+    bfs(n, group, vst)
+    groups.append(set(group))
+
+represents = []
+for group in groups:
+    top_val, top_num = sys.maxsize, 0
+    for num in group:
+        temp = 0
+        for line in board[num]:
+            temp += sum(line)
+
+        if temp < top_val:
+            top_val = temp
+            top_num =  num
+    represents.append(top_num)
+
+ans_arr = sorted(list(set(represents)))
+print(len(ans_arr))
+print(*ans_arr, sep="\n")

@@ -3,6 +3,23 @@ import sys
 from collections import deque
 sys.stdin = open("./input/9466.txt")
 input = sys.stdin.readline
+
+# ----------------------------------------
+
+
+def dfs(x):
+    global result
+    visited[x] = True
+    cycle.append(x) #사이클을 이루는 팀을 확인하기 위함
+    number = numbers[x]
+    
+    if visited[number]: #방문가능한 곳이 끝났는지
+        if number in cycle: #사이클 가능 여부
+            result += cycle[cycle.index(number):] #사이클 되는 구간 부터만 팀을 이룸
+        return
+    else:
+        dfs(number)
+=======
 sys.setrecursionlimit(sys.maxsize)
 # ----------------------------------------
 
@@ -20,17 +37,3 @@ def dfs(n: int, team_members:list, group:list):
         return
     else:
         dfs(num, team_members, group)
-
-
-for _ in range(int(input())):
-    N = int(input())
-    nums = [0] + list(map(int, input().split()))
-    checked = [1] + [0] * N
-    team_members = []
-
-    for i in range(1, N + 1):
-        if not checked[i]:
-            group = []
-            dfs(i, team_members, group)
-            
-    print(N - len(team_members)) #팀에 없는 사람 수
