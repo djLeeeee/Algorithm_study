@@ -7,7 +7,7 @@ BOJ = "https://www.acmicpc.net"
 ENDPOINT = "https://solved.ac/api/v3"
 
 
-def makeTimestamp(study_day: int = 3) -> str:
+def makeTimestamp(study_day: int = 4) -> str:
     from datetime import date, timedelta
 
     today = date.today()
