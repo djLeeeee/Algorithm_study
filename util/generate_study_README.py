@@ -44,7 +44,6 @@ def main():
         if not n.isdigit():
             break
         problems.append(int(n))
-    problems.sort()
 
     filename = f"2023/{stamp}/README.md"
     os.makedirs(os.path.dirname(filename), exist_ok=True)
