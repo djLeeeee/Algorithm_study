@@ -8,8 +8,8 @@ from collections import deque
 
 def get_and_set_que(que, a, b, cnt):
     if not check.get((a, b)):
-            check[(a, b)] = cnt + 1
-            que.append((a, b))
+        check[(a, b)] = cnt + 1
+        que.append((a, b))
 
 def empty(que: list, a: int, b: int):
     cur_cnt = check[(a, b)]
