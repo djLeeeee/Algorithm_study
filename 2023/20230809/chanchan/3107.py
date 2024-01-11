@@ -5,7 +5,7 @@ input = sys.stdin.readline
 # ----------------------------------------
 
 ip = input().rstrip().split(":")
-ans = []
+ans = [] # "0000"
 flag = 1
 
 for i in ip:
@@ -14,7 +14,7 @@ for i in ip:
         for _ in range(8 - len(ip) + 1):
             ans.append("0000")
     else:
-        ans.append(i.zfill(4))
+        # ans.append(i.zfill(4))
+        ans.append(i.rjust(4, "0"))
     
-
 print(":".join(ans))

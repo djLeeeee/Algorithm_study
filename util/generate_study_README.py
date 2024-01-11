@@ -7,7 +7,7 @@ BOJ = "https://www.acmicpc.net"
 ENDPOINT = "https://solved.ac/api/v3"
 
 
-def makeTimestamp(study_day: int = 3) -> str:
+def makeTimestamp(study_day: int = 4) -> str:
     from datetime import date, timedelta
 
     today = date.today()
@@ -44,9 +44,8 @@ def main():
         if not n.isdigit():
             break
         problems.append(int(n))
-    problems.sort()
 
-    filename = f"2023/{stamp}/README.md"
+    filename = f"2024/{stamp}/README.md"
     os.makedirs(os.path.dirname(filename), exist_ok=True)
 
     with open(file=filename, mode="w", encoding="utf-8") as readme:
