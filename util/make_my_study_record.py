@@ -25,8 +25,9 @@ def main():
     if (userID := args.user) is None:
         print("user ID is required!", flush=True)
         userID = input("user ID? (maybe your github ID) ex. bomul1128\n")
+    year = date[:4]
     try:
-        sys.stdin = open(f"2023/{date}/README.md", "r")
+        sys.stdin = open(f"{year}/{date}/README.md", "r")
     except FileNotFoundError:
         print(f"README.md at {date} not found!", flush=True)
         return
@@ -41,7 +42,6 @@ def main():
             rawPlatform, idx, *rawTitle = name.split()
             title = ''.join(rawTitle)
             platform = mapper.get(rawPlatform, "UNKNOWN")
-            year = date[:4]
             filename = f"{year}/{date}/{userID}/[{platform}]_{idx}_{title}.py"
             os.makedirs(os.path.dirname(filename), exist_ok=True)
             with open(filename, "w") as f:
