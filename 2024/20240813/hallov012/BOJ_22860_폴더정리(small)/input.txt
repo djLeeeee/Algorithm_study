@@ -1,0 +1,10 @@
+4 1
+main FolderA 1
+FolderA FolderB 1
+FolderB FolderC 1
+FolderC FolderD 1
+FolderD File1 0
+3
+main
+main/FolderA
+main/FolderA/FolderB/FolderC/FolderD
