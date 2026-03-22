@@ -39,7 +39,6 @@
 | [14675](https://www.acmicpc.net/problem/14675) | 단절점과 단절선 | 2023.04.19 |
 | [14888](https://www.acmicpc.net/problem/14888) | 연산자 끼워넣기 | 2024.07.04 |
 | [15900](https://www.acmicpc.net/problem/15900) | 나무 탈출 | 2023.04.12 |
-| [15903](https://www.acmicpc.net/problem/15903) | 카드 합체 놀이 | 2022.06.30 |
 | [16918](https://www.acmicpc.net/problem/16918) | 봄버맨 | 2022.10.19 |
 | [19638](https://www.acmicpc.net/problem/19638) | 센티와 마법의 뿅망치 | 2023.05.03 |
 | [20529](https://www.acmicpc.net/problem/20529) | 가장 가까운 세 사람의 심리적 거리 | 2023.06.14 |
@@ -63,6 +62,7 @@
 | [10819](https://www.acmicpc.net/problem/10819) | 차이를 최대로 | 2022.09.28 |
 | [10971](https://www.acmicpc.net/problem/10971) | 외판원 순회 2 | 2022.09.07 |
 | [11279](https://www.acmicpc.net/problem/11279) | 최대 힙 | 2022.03.24 |
+| [15903](https://www.acmicpc.net/problem/15903) | 카드 합체 놀이 | 2022.06.30 |
 | [18111](https://www.acmicpc.net/problem/18111) | 마인크래프트 | 2023.01.04 |
 | [18113](https://www.acmicpc.net/problem/18113) | 그르다 김가놈 | 2022.12.07 |
 

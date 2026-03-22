@@ -1,6 +1,6 @@
 # Gold 문제 목록
 
-총 285문제
+총 290문제
 
 
 ## Gold I
@@ -18,7 +18,6 @@
 | [2933](https://www.acmicpc.net/problem/2933) | 미네랄 | 2025.12.04 |
 | [4716](https://www.acmicpc.net/problem/4716) | 풍선 | 2025.11.19 |
 | [4991](https://www.acmicpc.net/problem/4991) | 로봇 청소기 | 2025.11.06 |
-| [8980](https://www.acmicpc.net/problem/8980) | 택배 | 2023.11.30 |
 | [11003](https://www.acmicpc.net/problem/11003) | 최솟값 찾기 | 2022.10.19 |
 | [12100](https://www.acmicpc.net/problem/12100) | 2048 (Easy) | 2024.03.21 |
 | [16118](https://www.acmicpc.net/problem/16118) | 달빛 여우 | 2025.09.25 |
@@ -49,13 +48,16 @@
 | [3108](https://www.acmicpc.net/problem/3108) | 로고 | 2025.01.15 |
 | [4195](https://www.acmicpc.net/problem/4195) | 친구 네트워크 | 2024.09.25 |
 | [5214](https://www.acmicpc.net/problem/5214) | 환승 | 2025.12.18 |
+| [8980](https://www.acmicpc.net/problem/8980) | 택배 | 2023.11.30 |
 | [9370](https://www.acmicpc.net/problem/9370) | 미확인 도착지 | 2024.09.11 |
 | [9576](https://www.acmicpc.net/problem/9576) | 책 나눠주기 | 2025.07.10 |
+| [10473](https://www.acmicpc.net/problem/10473) | 인간 대포 | 2026.03.05 |
 | [10711](https://www.acmicpc.net/problem/10711) | 모래성 | 2024.03.07 |
 | [10800](https://www.acmicpc.net/problem/10800) | 컬러볼 | 2023.01.25 |
 | [13334](https://www.acmicpc.net/problem/13334) | 철로 | 2024.12.18 |
 | [13911](https://www.acmicpc.net/problem/13911) | 집 구하기 | 2025.05.15 |
 | [14867](https://www.acmicpc.net/problem/14867) | 물통 | 2023.09.21 |
+| [15732](https://www.acmicpc.net/problem/15732) | 도토리 숨기기 | 2026.03.26 |
 | [16920](https://www.acmicpc.net/problem/16920) | 확장 게임 | 2025.09.25 |
 | [17136](https://www.acmicpc.net/problem/17136) | 색종이 붙이기 | 2024.08.29 |
 | [17244](https://www.acmicpc.net/problem/17244) | 아맞다우산 | 2024.11.14 |
@@ -91,6 +93,8 @@
 | [2528](https://www.acmicpc.net/problem/2528) | 사다리 | 2023.04.26 |
 | [2638](https://www.acmicpc.net/problem/2638) | 치즈 | 2022.08.04 |
 | [2812](https://www.acmicpc.net/problem/2812) | 크게 만들기 | 2023.05.31 |
+| [2836](https://www.acmicpc.net/problem/2836) | 수상 택시 | 2026.03.26 |
+| [2879](https://www.acmicpc.net/problem/2879) | 코딩은 예쁘게 | 2026.03.26 |
 | [4179](https://www.acmicpc.net/problem/4179) | 불! | 2023.08.23 |
 | [4386](https://www.acmicpc.net/problem/4386) | 별자리 만들기 | 2024.05.09 |
 | [6087](https://www.acmicpc.net/problem/6087) | 레이저 통신 | 2024.05.16 |
@@ -102,7 +106,7 @@
 | [10986](https://www.acmicpc.net/problem/10986) | 나머지 합 | 2022.07.07 |
 | [10993](https://www.acmicpc.net/problem/10993) | 별 찍기 - 18 | 2022.07.14 |
 | [11085](https://www.acmicpc.net/problem/11085) | 군사 이동 | 2023.05.10 |
-| [11562](https://www.acmicpc.net/problem/11562) | 백양로 브레이크 | 2024.03.07 |
+| [11562](https://www.acmicpc.net/problem/11562) | 백양로 브레이크 | 2024.03.07, 2026.03.05 |
 | [13418](https://www.acmicpc.net/problem/13418) | 학교 탐방하기 | 2023.10.25 |
 | [13904](https://www.acmicpc.net/problem/13904) | 과제 | 2025.05.29 |
 | [13905](https://www.acmicpc.net/problem/13905) | 세부 | 2022.06.16 |
@@ -163,6 +167,7 @@
 | [1715](https://www.acmicpc.net/problem/1715) | 카드 정렬하기 | 2022.03.24 |
 | [1744](https://www.acmicpc.net/problem/1744) | 수 묶기 | 2024.04.25 |
 | [1806](https://www.acmicpc.net/problem/1806) | 부분합 | 2026.01.14 |
+| [1891](https://www.acmicpc.net/problem/1891) | 사분면 | 2026.03.05 |
 | [1915](https://www.acmicpc.net/problem/1915) | 가장 큰 정사각형 | 2024.06.20 |
 | [1956](https://www.acmicpc.net/problem/1956) | 운동 | 2024.05.16 |
 | [1963](https://www.acmicpc.net/problem/1963) | 소수 경로 | 2022.07.14 |

@@ -7,11 +7,11 @@
 | 난이도 | 문제 수 |
 |--------|---------|
 | [Platinum](./platinum.md) | 4 |
-| [Gold](./gold.md) | 285 |
+| [Gold](./gold.md) | 290 |
 | [Silver](./silver.md) | 59 |
 | [Bronze](./bronze.md) | 3 |
 | [Unrated](./unrated.md) | 1 |
-| **합계** | **352** |
+| **합계** | **357** |
 
 ## 바로가기
 
