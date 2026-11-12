@@ -1,5 +1,5 @@
 # 20261112 알고리즘 스터디 문제
 
-- [D4 1824. 혁진이의 프로그램 검증](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4yLUiKDUoDFAUx) — 상태 공간 탐색(BFS)
-- [SW Test 1767. 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf) — 백트래킹·가지치기
-- [D5 9999. 광고 시간 정하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXIvPBC6aqUDFAXR) — 투 포인터·슬라이딩 윈도우
+- [D4 1824. 혁진이의 프로그램 검증](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4yLUiKDUoDFAUx)
+- [SW Test 1767. 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)
+- [D5 9999. 광고 시간 정하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXIvPBC6aqUDFAXR)
